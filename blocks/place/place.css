@@ -2,6 +2,24 @@
     max-width: 984px;
     margin-bottom: 80px;
     display: grid;
-    grid-template-columns: 460px 456px;
+    grid-template-columns: 460px 484px;
     gap: 40px 48px;
+}
+
+@media screen and (max-width:1279px) {
+    .place {
+        grid-template-columns: 440px 456px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .place {
+        grid-template-columns: 340px 352px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .place {
+        grid-template-columns: 320px;
+    }
 }

@@ -1,19 +1,17 @@
 .footer {
     max-width: 92.5%;
+    padding: 0px 0px 24px;
     margin: 92px auto 0px;
-    padding: 0px 0px 18px;
-    list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    gap: 18px;
+    justify-content: space-between;
+
 }
 
 @media screen and (max-width:787px) {
     .footer {
         flex-direction: column;
-        margin: 92px 16px 0px;
-        padding: 0px 0px 24px;
+        margin-left: 16px;
         gap: 32px;
     }
 }

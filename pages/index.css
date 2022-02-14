@@ -1,13 +1,14 @@
-/* Подключение шрифта Inter */
-
-@import url(../fonts/fonts.css);
-
 /* Подключение стиля normalize.css */
 
 @import url(../vendor/normalize.css);
 
-/* Подключение блока page */
+/* Подключение шрифта Inter */
 
+@import url(../fonts/fonts.css);
+
+/* Подключение блока page и background-page */
+
+@import url(../blocks/background-page/background-page.css);
 @import url(../blocks/page/page.css);
 
 /* Подключение блока header */
